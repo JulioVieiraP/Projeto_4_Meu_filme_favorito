@@ -1,0 +1,14 @@
+@use 'base/reset';
+@use './layout/header';
+@use 'hero';
+@use './utils/mixins';
+@use './utils/var';
+
+body{
+    color: var.$corDoTexto;
+
+    a{
+        color: var.$corDoTexto;
+    }
+}
+

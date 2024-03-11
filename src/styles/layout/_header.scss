@@ -1,0 +1,49 @@
+@use '../utils/var';
+
+.header {
+    padding-left: 95px;
+    padding-right: 95px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    &__nav {
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        h1{
+            align-items: center;
+            text-align: center;
+            margin: 16px 0px;
+        }
+        
+        &__links {
+            display: flex;
+            &__item{
+                margin-left: 20px;
+                
+            }
+        }
+    }
+
+    &__btn__links{
+        padding-left: 37vw;
+        display: flex;
+        height: 56px;
+        align-items: center;
+        text-align: center;
+
+        &__item{
+            font-size: 15px;
+            white-space: nowrap;
+
+            &--secundario{
+                margin-right: 16px;
+            }
+            &--active{
+                padding: 6px 6px 7px;
+                background-color: var.$corDoBtnPrincipal;
+            }
+        }
+    }
+}

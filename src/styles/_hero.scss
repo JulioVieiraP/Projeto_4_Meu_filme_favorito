@@ -1,0 +1,19 @@
+.hero {
+    background-image: url('../images/hero-background.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0; // Espaçamento interno
+    font-size: 24px;
+
+    h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+}
