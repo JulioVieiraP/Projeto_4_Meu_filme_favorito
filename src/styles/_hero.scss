@@ -1,15 +1,15 @@
 .hero{
-    padding-left: 95px;
-    padding-right: 95px;
+    padding: 10.56vh;
     padding-top: 23.6vh;
-    min-height: 95vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('');
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/logos/hero_transformers.jpg');
     background-size: cover;
     position: relative;
     text-align: center;
 
     &__content__texto{
         margin-bottom: 24px;
+        margin-top: 100px;
     }
 
     &__content__paragrafo{

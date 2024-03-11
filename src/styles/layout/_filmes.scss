@@ -1,0 +1,18 @@
+.filmes{
+    background-color: black;
+    color: #fff;
+    padding: 10.56vh;
+
+    h2{
+        padding: 48px 0px 10px;
+    }
+    &__links{
+        display: flex;
+        &__item{
+            img{
+                max-width: 400px;
+                height: 200px;
+            }
+        }
+    }
+}

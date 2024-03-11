@@ -1,6 +1,7 @@
 @use 'base/reset';
 @use './layout/header';
-@use './layout/hero';
+@use 'hero';
+@use './layout/filmes';
 @use './utils/mixins';
 @use './utils/var';
 
@@ -10,5 +11,6 @@ body{
     a{
         color: var.$corDoTexto;
     }
+    
 }
 
