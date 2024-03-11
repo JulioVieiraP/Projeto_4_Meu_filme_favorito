@@ -4,14 +4,19 @@
     padding: 10.56vh;
 
     h2{
-        padding: 48px 0px 10px;
+        text-align: center;
+        padding: 48px 0px 48px;
     }
     &__links{
-        display: flex;
+        margin-top: 44px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
         &__item{
             img{
-                max-width: 400px;
-                height: 200px;
+                flex: 1;
+                width: 50%;
+                height: 100%;
             }
         }
     }
