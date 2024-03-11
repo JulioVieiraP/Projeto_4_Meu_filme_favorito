@@ -22,13 +22,7 @@
         }
         
     }
-    &__links {
-        display: flex;
-        &__item{
-            margin-left: 20px;
-            
-        }
-    }
+
 
     &__btn__links{
         display: flex;
@@ -42,6 +36,8 @@
 
             &--secundario{
                 margin-right: 16px;
+                padding: 6px 6px 7px;
+                background-color: var.$corDoBtnPrincipal;
             }
             &--active{
                 padding: 6px 6px 7px;

@@ -11,22 +11,7 @@
     <header class="header">
         <nav class="header__container">
             <h1>Paramount+</h1>
-            <ul class="header__links">
-                <li class="header__links__item">
-                    <a href="#">Séries</a>
-                </li>
-                <li class="header__links__item">
-                    <a href="#">Filmes</a>
-                </li>
-                <li class="header__links__item">
-                    <a href="#">Esportes</a>
-                </li>
-                <li class="header__links__item">
-                    <a href="#">pesquisar</a>
-                </li>
-            </ul>
         </nav>
-
         <div class="header__nav">
             <ul class="header__btn__links">
                 <li class="header__btn__links__item header__btn__links__item--secundario">
@@ -52,33 +37,62 @@
 
     <section class="filmes">
         <h2>lista dos filmes</h2>
-        <ul class="filmes__links">
-            <li class="filmes__links__item">
-                <a href="#">
-                    <img src="src/images/logos/Transformers-1.jpg" alt="Transformers1">
-                </a>
-            </li>
-            <li class="filmes__links__item">
-                <a href="#">
-                    <img src="src/images/logos/transformers_2.jpg" alt="Transformers2">
-                </a>
-            </li>
-            <li class="filmes__links__item">
-                <a href="#">
-                    <img src="src/images/logos/transformers-3.jpg" alt="Transformers3">
-                </a>
-            </li>
-            <li class="filmes__links__item">
-                <a href="#">
-                    <img src="src/images/logos/transformers-4.jpg" alt="Transformers4">
-                </a>
-            </li>
-            <li class="filmes__links__item">
-                <a href="#">
-                    <img src="src/images/logos/transformers-5.webp" alt="Transformers5">
-                </a>
-            </li>
-        </ul>
+        <div class="filmes__btn">
+            <button class="filmes__btn__item filmes__btn__item--active">Filmes antigos</button>
+            <button class="filmes__btn__item">Filmes novos</button>
+        </div>
+        <div>
+            <ul class="filmes__links">
+                <li class="filmes__links__item">
+                    <a href="#" class="filmes__links__item__movie-container">
+                        <img src="src/images/logos/Transformers-1.jpg" alt="Transformers1">
+                        <p class="filmes__links__item__movie-container-legenda">Transformers: 1</p>
+                    </a>
+                </li>
+                <li class="filmes__links__item">
+                    <a href="#" class="filmes__links__item__movie-container">
+                        <img src="src/images/logos/transformers_2.jpg" alt="Transformers2">
+                        <p class="filmes__links__item__movie-container-legenda">Transformers: a vingança dos derrotados</p>
+                    </a>
+                </li>
+                <li class="filmes__links__item">
+                    <a href="#" class="filmes__links__item__movie-container">
+                        <img src="src/images/logos/transformers-3.jpg" alt="Transformers3">
+                        <p class="filmes__links__item__movie-container-legenda">Transformers: O lado oculto da lua</p>
+                    </a>
+                </li>
+                <li class="filmes__links__item">
+                    <a href="#" class="filmes__links__item__movie-container">
+                        <img src="src/images/logos/transformers-4.jpg" alt="Transformers4">
+                        <p class="filmes__links__item__movie-container-legenda">Transformers: a era da extinção</p>
+                    </a>
+                </li>
+                <li class="filmes__links__item">
+                    <a href="#" class="filmes__links__item__movie-container">
+                        <img src="src/images/logos/transformers-5.webp" alt="Transformers5">
+                        <p class="filmes__links__item__movie-container-legenda">Transformers: O ultimo cavaleiro</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="filmes__links">
+                <li class="filmes__links__item">
+                    <a href="#" class="filmes__links__item__movie-container">
+                        <img src="src/images/logos/bumblebee.jpg" alt="Bumblebee">
+                        <p class="filmes__links__item__movie-container-legenda">Bumblebee</p>
+                    </a>
+                </li>
+                <li class="filmes__links__item">
+                    <a href="#" class="filmes__links__item__movie-container">
+                        <img src="src/images/logos/transformers_O_Despertar_das_Feras.jpg" alt="O despera das feras">
+                        <p class="filmes__links__item__movie-container-legenda">Transformers: O despera das feras</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </section>
+
+    <script src="src/scripts/main.js"></script>
 </body>
 </html>
