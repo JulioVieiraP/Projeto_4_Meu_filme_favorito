@@ -1,3 +1,4 @@
+@use '../utils/var';
 .atores{
     padding: 10.56vh;
     padding-top: 0;
@@ -6,7 +7,7 @@
     justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 50px;
-    background-color: black;
+    background-color: var.$corDeFundo2;
 
     @media (min-width: 1201px){
         .atores{
@@ -47,17 +48,18 @@
 
         &__texto{
             padding: 16px;
-            background-color: black;
+            background-color: var.$corDeFundo2;
             color: #ccc;
         }
     }
 }
 
 .Titulo__atores{
-    background-color: black;
+    background-color: var.$corDeFundo2;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 40px;
     padding-bottom: 5em;
 }
 

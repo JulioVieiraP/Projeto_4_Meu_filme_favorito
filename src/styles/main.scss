@@ -4,10 +4,17 @@
 @use './layout/filmes';
 @use './layout/atores';
 @use './layout/footer';
+@use './layout/Assistir';
+@use './layout/Info';
 @use './utils/var';
 
 body{
+    font-family: "Roboto", sans-serif;
     color: var.$corDoTexto;
+
+    h1{
+        font-family: "Lobster", sans-serif;
+    }
 
     a{
         color: var.$corDoTexto;

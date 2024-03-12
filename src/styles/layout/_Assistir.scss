@@ -1,0 +1,47 @@
+@use '../utils/var';
+
+.Assistir{
+    background-color: var.$corDeFundo;
+    color: var.$corDoTexto;
+    padding: 10.56vh;
+
+    h1{
+        text-align: center;
+        justify-content: center;
+        color: var.$corDoTexto;
+    }
+    &__links{
+        padding-top: 64px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        &__item{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            img{
+                height: 100px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            a{
+                button{
+                    font-size: 15px;
+                    padding: 5px;
+                    border-radius: 5px;
+                    border: none;
+                    background-color: var.$corDoBtnPrincipal;
+                    color: var.$corDoTexto;
+                    text-align: center;
+                    cursor: pointer;
+
+                    &:hover{
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+}

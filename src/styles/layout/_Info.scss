@@ -1,0 +1,22 @@
+@use '../utils/var';
+
+.Info{
+    padding: 10.56vh;
+    background-color: var.$corDeFundo2;
+    &__header{
+        align-items: center;
+        &__links{
+            padding-top: 20px;
+            font-size: 12px;
+            h3{
+                font-size: 18px;
+            }
+            &__item{
+                padding: 7px;
+                &:hover{
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}

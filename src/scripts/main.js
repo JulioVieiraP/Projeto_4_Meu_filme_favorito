@@ -1,19 +1,15 @@
 $(document).ready(function(){
     var btn_antigos = $('#Btn_antigos').attr('id')
 
-    const heroSection = $('.hero')
-    const alturaHero = heroSection.height()
+    var alturaOcultacao = 200;
 
-    window.addEventListener('scroll', function(){
-        const posicaoAtual = $(window).scrollTop()
-
-        if(posicaoAtual < alturaHero){
-            ocultaElementosDoHeader()
-        }else{
-            exibeElementosDoHeader()
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > alturaOcultacao){
+            $('.header').fadeOut();
+        } else {
+            $('.header').fadeIn();
         }
-    })
-
+    });
     // Seção de atrações, programação das abas com jquery
     $(".filmes__btn__item").click(function(){
         $(".filmes__btn__item").removeClass("filmes__btn__item--active")

@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transformers</title>
-    <link rel="shortcut icon" href="src/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="src/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="build/css/main.css">
 </head>
 <body>
-    <header class="header header--is-hidden">
+    <header class="header">
         <nav class="header__container">
             <h1>Meu filme favorito</h1>
         </nav>
         <div class="header__nav">
             <ul class="header__btn__links">
-                <li class="header__btn__links__item header__btn__links__item--secundario">
-                    <a href="#">Fazer Login</a>
-                </li>
-                <li class="header__btn__links__item header__btn__links__item--active">
-                    <a href="#">Teste o paramount+</a>
+                <li class="header__btn__links__item">
+                    <a href="#Assistir"><button>Onde assistir</button></a>
                 </li>
             </ul>  
         </div>    
@@ -96,6 +96,7 @@
     <div class="Titulo__atores">
         <h1>Atores</h1>
     </div>
+
     <section class="atores">
         <div class="atores__cards">
             <img src="src/images/atores/Shian LaBeouf.jpeg" alt="placeholder">
@@ -134,8 +135,53 @@
             </div>
         </div>
     </section>
+
+    <section class="Assistir" id="Assistir">
+        <h1>Onde assistir</h1>
+        <ul class="Assistir__links">
+            <li class="Assistir__links__item">
+                <h3>Netflix</h3>
+                <img src="src/images/icones/Papirus-Team-Papirus-Apps-Netflix.48.png" alt="Imagem de placeholder">
+                <a href="#"><button>Assistir</button></a>
+            </li>
+            <li class="Assistir__links__item">
+                <h3>Paramoun+</h3>
+                <img src="src/images/icones/Paramount+ icon.png" alt="Imagem de placeholder">
+                <a href="#"><button>Assistir</button></a>
+            </li>
+            <li class="Assistir__links__item">
+                <h3>Amazon Prime</h3>
+                <img src="src/images/icones/Amazon prime.png" alt="Imagem de placeholder">
+                <a href="#"><button>Assistir</button></a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="Info">
+        <div class="Info__header">
+            <ul class="Info__header__links">
+                <h3>Privacidade e Termos</h3>
+                <li class="Info__header__links__item">
+                    <a href="#">Termos de Uso</a>
+                </li>
+                <li class="Info__header__links__item">
+                    <a href="#">Política de Privacidade</a>
+                </li>
+            </ul>
+            <ul class="Info__header__links">
+                <h3>Contatos</h3>
+                <li class="Info__header__links__item">
+                    <a href="#">Entre em contato</a>
+                </li>
+                <li class="Info__header__links__item">
+                    <a href="#">Dispositivos compatíveis</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
     <footer class="footer">
-        <div class="footer_dev">
+        <div class="footer__dev">
             <h1>Desenvolvido por julio vieira paixão</h1>
             <p>
                 o conteudo desse projeto é de aprendizado não tem relação com a marca

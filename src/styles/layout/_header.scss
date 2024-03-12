@@ -10,17 +10,6 @@
     z-index: 1;
     width: 100%;
 
-    &--is-hidden{
-        background-color: transparent;
-
-        .header{
-            &__logo, &__links__item:first-child{
-                opacity: 0;
-                visibility: hidden;
-                transition: opacity 0.5s ease;
-            }
-        }
-    }
     
     &__container {
         display: flex;
@@ -28,6 +17,7 @@
         text-align: center;
 
         h1{
+            font-family: "Lobster", sans-serif;
             align-items: center;
             text-align: center;
             margin: 16px 0px;
@@ -46,14 +36,18 @@
             font-size: 15px;
             white-space: nowrap;
 
-            &--secundario{
-                margin-right: 16px;
-                padding: 6px 6px 7px;
-                background-color: var.$corDoBtnPrincipal;
-            }
-            &--active{
-                padding: 6px 6px 7px;
-                background-color: var.$corDoBtnPrincipal;
+            a{
+                button{
+                    font-size: 15px;
+                    padding: 5px;
+                    border: none;
+                    background-color: var.$corDoBtnPrincipal;
+                    color: var.$corDoTexto;
+                    cursor: pointer;
+                    &:hover{
+                        opacity: 0.7;
+                    }
+                }
             }
         }
     }
