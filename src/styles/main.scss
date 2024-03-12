@@ -2,7 +2,8 @@
 @use './layout/header';
 @use 'hero';
 @use './layout/filmes';
-@use './utils/mixins';
+@use './layout/atores';
+@use './layout/footer';
 @use './utils/var';
 
 body{
@@ -11,6 +12,6 @@ body{
     a{
         color: var.$corDoTexto;
     }
+
     
 }
-
