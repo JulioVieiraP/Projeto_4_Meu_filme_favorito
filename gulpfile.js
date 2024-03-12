@@ -25,4 +25,4 @@ function Watch() {
     gulp.watch('./src/styles/**/*.scss', Sass)
 }
 
-exports.default = gulp.parallel(Sass, Watch, scripts, images)
+exports.default = gulp.parallel(Sass, scripts, images)
